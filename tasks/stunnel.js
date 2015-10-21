@@ -21,6 +21,7 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       silent: false,
+      keepalive: false,
       port: 8443,
       /**
        * REQUIRED OPTION : Path to the .pem file for the stunnel process.
@@ -130,8 +131,10 @@ module.exports = function(grunt) {
           .on('SIGINT', kill)
           .on('SIGHUP', kill)
           .on('SIGBREAK', kill);
-    
-        cb();
+      
+        if (!options.keepalive) {
+          cb();
+        }
     });
 
   });

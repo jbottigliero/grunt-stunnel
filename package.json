@@ -1,7 +1,7 @@
 {
   "name": "grunt-stunnel",
   "description": "Grunt plugin for using stunnel (intended for use with grunt-php).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/josephbottigliero/grunt-stunnel",
   "author": {
     "name": "Joe Bottigliero",
@@ -21,7 +21,7 @@
     }
   ],
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "grunt test"
