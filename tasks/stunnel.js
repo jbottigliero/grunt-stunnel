@@ -45,7 +45,7 @@ module.exports = function(grunt) {
     /**
      * stunnel binary version check using "-version" option.
      */
-    child.exec(options.bin + ' -version', (err, stdout, stderr) => {
+    child.exec(options.bin + ' -version', function(err, stdout, stderr) {
 
         if (err) {
           if (err.code === 'ENOENT') {
