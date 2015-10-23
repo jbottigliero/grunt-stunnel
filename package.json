@@ -1,23 +1,23 @@
 {
   "name": "grunt-stunnel",
   "description": "Grunt plugin for using stunnel (intended for use with grunt-php).",
-  "version": "0.1.2",
-  "homepage": "https://github.com/josephbottigliero/grunt-stunnel",
+  "version": "0.2.0",
+  "homepage": "https://github.com/jbottigliero/grunt-stunnel",
   "author": {
     "name": "Joe Bottigliero",
     "email": "joe@bottigliero.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/josephbottigliero/grunt-stunnel.git"
+    "url": "git://github.com/jbottigliero/grunt-stunnel.git"
   },
   "bugs": {
-    "url": "https://github.com/josephbottigliero/grunt-stunnel/issues"
+    "url": "https://github.com/jbottigliero/grunt-stunnel/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/josephbottigliero/grunt-stunnel/blob/master/LICENSE-MIT"
+      "url": "https://github.com/jbottigliero/grunt-stunnel/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
